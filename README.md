@@ -1,31 +1,31 @@
 # URL Shortener Challenge
 
-## Challenge Overview
+## Overview
 
-This challenge is part of the [backend-br challenges](https://github.com/backend-br/desafios/blob/master/url-shortener/PROBLEM.md). The goal is to build a URL shortener service that takes a long URL and converts it into a shorter version. 
+Welcome to the URL Shortener Challenge, a part of the backend-br challenges. The objective is to construct a URL shortener service that transforms a lengthy URL into a more concise version.
 
-## Requirements
+## Features
 
-1. The URL shortener receives a long URL as an input parameter.
-2. The shortened URL should have a length between 5 and 10 characters.
-3. The shortened URL can only contain letters and numbers.
-4. The shortened URL will be stored in a database with an expiration date (you can choose the desired duration).
-5. When a request is made to the shortened URL, e.g., `https://xxx.com/DXB6V`, it should redirect to the original URL stored in the database. If the URL is not found in the database, return an HTTP 404 (Not Found) status code.
+1. **URL Shortening**: The service accepts a long URL and returns a shortened version.
+2. **Character Limit**: The shortened URL will contain between 5 and 10 characters.
+3. **Character Restrictions**: The shortened URL can only include alphanumeric characters.
+4. **Expiration Date**: The shortened URL will be stored in a database with an expiration date of your choice.
+5. **Redirection**: When a request is made to the shortened URL (e.g., `https://xxx.com/DXB6V`), the service will redirect to the original URL. If the URL is not found, it will return an HTTP 404 (Not Found) status code.
 
-## How to Run
+## Getting Started
 
-1. Clone this repository to your local machine.
-2. Install the required dependencies.
-3. Set up your database and configure the connection settings.
-4. Run the application.
-5. Use the provided endpoints to shorten URLs and retrieve the original URLs.
+1. **Clone the Repository**: Clone this repository to your local machine.
+2. **Install Dependencies**: Install the necessary dependencies.
+3. **Database Setup**: Set up your database and adjust the connection settings.
+4. **Run the Application**: Start the application.
+5. **Use the Endpoints**: Utilize the provided endpoints to shorten URLs and retrieve the original URLs.
 
 ## Endpoints
 
 - **POST /shorten**: Accepts a long URL and returns a shortened URL.
 - **GET /:shortenedURL**: Redirects to the original URL if found; otherwise, returns a 404 status code.
 
-## Technologies Used
+## Tech Stack
 
 - JAVA 21
 - Spring Boot
@@ -33,21 +33,21 @@ This challenge is part of the [backend-br challenges](https://github.com/backend
 
 ## Configuration
 
-1. Set the database connection string in the configuration file.
-2. Specify the desired duration for URL validity.
+1. **Database Connection**: Specify the database connection string in the configuration file.
+2. **URL Validity**: Set the desired duration for URL validity.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
 
 ## Contributing
 
-Feel free to open issues or submit pull requests with improvements or fixes. For major changes, please open an issue first to discuss what you would like to change.
+We welcome contributions! Feel free to open issues or submit pull requests for improvements or fixes. For significant changes, please open an issue first to discuss your proposed changes.
 
 ## Contact
 
-For any questions or feedback, please reach out to Allan Cristiano da Silva Santos at drmundo920@gmail.com.
+If you have any questions or feedback, please contact Allan Cristiano da Silva Santos at drmundo920@gmail.com.
 
 ---
 
-By following the requirements and guidelines mentioned above, you'll be able to implement a functional and efficient URL shortener service. Happy coding!
+By adhering to the above requirements and guidelines, you'll be able to create a functional and efficient URL shortener service. Happy coding!
