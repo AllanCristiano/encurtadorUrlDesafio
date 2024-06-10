@@ -38,7 +38,7 @@ This challenge is part of the [backend-br challenges](https://github.com/backend
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 ## Contributing
 
