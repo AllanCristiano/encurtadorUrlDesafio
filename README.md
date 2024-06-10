@@ -33,7 +33,7 @@ This challenge is part of the [backend-br challenges](https://github.com/backend
 
 ## Configuration
 
-1. **Database Connection**: Specify the database connection string in the configuration file.
+1. **Database Connection**: The database connection is configured in the `docker-compose` file, and it uses MongoDB.
 2. **URL Validity**: 5 minutes.
 
 ## License
