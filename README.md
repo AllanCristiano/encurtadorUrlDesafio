@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the URL Shortener Challenge, a part of the backend-br challenges. The objective is to construct a URL shortener service that transforms a lengthy URL into a more concise version.
+This challenge is part of the [backend-br challenges](https://github.com/backend-br/desafios/blob/master/url-shortener/PROBLEM.md). The goal is to build a URL shortener service that takes a long URL and converts it into a shorter version. 
 
 ## Features
 
