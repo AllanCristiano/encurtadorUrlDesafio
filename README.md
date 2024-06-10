@@ -27,7 +27,7 @@ This challenge is part of the [backend-br challenges](https://github.com/backend
 
 ## Technologies Used
 
-- JAVA 21
+- [JAVA 21]
 - Spring Boot
 - MongoDB
 
