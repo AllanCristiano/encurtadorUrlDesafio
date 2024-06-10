@@ -27,9 +27,9 @@ This challenge is part of the [backend-br challenges](https://github.com/backend
 
 ## Technologies Used
 
-- [Technology 1]
-- [Technology 2]
-- [Technology 3]
+- JAVA 21
+- Spring Boot
+- MongoDB
 
 ## Configuration
 
@@ -46,7 +46,7 @@ Feel free to open issues or submit pull requests with improvements or fixes. For
 
 ## Contact
 
-For any questions or feedback, please reach out to [Allan Cristiano da Silva Santos) at [drmundo920@gmail.com].
+For any questions or feedback, please reach out to [Allan Cristiano da Silva Santos] at [drmundo920@gmail.com].
 
 ---
 
