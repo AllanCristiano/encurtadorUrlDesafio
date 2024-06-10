@@ -46,7 +46,7 @@ Feel free to open issues or submit pull requests with improvements or fixes. For
 
 ## Contact
 
-For any questions or feedback, please reach out to [Allan Cristiano da Silva Santos] at [drmundo920@gmail.com].
+For any questions or feedback, please reach out to [Allan Cristiano da Silva Santos) at [drmundo920@gmail.com].
 
 ---
 
